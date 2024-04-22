@@ -1,0 +1,16 @@
+torch
+funcy
+causal-conv1d
+mamba_ssm
+matplotlib
+munch
+numpy
+pandas
+PyYAML
+quinine
+scikit_learn
+seaborn
+tqdm
+transformers
+xgboost
+wandb

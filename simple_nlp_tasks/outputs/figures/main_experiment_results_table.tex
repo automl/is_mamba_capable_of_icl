@@ -1,0 +1,400 @@
+\onecolumn
+\begin{center}
+\small
+\begin{longtable}{lllrr}
+
+\caption{Complete results of the main experiment for all tasks and models.} \label{table:main_results} \\
+
+\toprule
+ &  & method & Baseline & Regular \\
+Model & Task type & Task name &  &  \\
+\midrule
+    \endfirsthead
+
+    \multicolumn{3}{c}
+    {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \toprule
+ &  & method & Baseline & Regular \\
+Model & Task type & Task name &  &  \\
+\midrule
+    \endhead
+    
+\multirow[t]{18}{*}{GPT-J 6B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.30 & 0.98 \\
+ &  & List last & 0.24 & 1.00 \\
+ &  & Next letter & 0.16 & 0.86 \\
+ &  & Prev letter & 0.10 & 0.42 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.19 & 0.80 \\
+ &  & Location continent & 0.03 & 0.70 \\
+ &  & Location religion & 0.09 & 0.78 \\
+ &  & Person language & 0.02 & 0.82 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.43 & 0.78 \\
+ &  & Plural singular & 0.08 & 0.98 \\
+ &  & Present simple gerund & 0.00 & 0.98 \\
+ &  & Present simple past simple & 0.02 & 0.96 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.14 & 0.56 \\
+ &  & En fr & 0.16 & 0.54 \\
+ &  & Es en & 0.06 & 0.74 \\
+ &  & Fr en & 0.13 & 0.76 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{LLaMA 13B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.77 & 1.00 \\
+ &  & List last & 0.07 & 0.92 \\
+ &  & Next letter & 0.31 & 0.94 \\
+ &  & Prev letter & 0.05 & 0.50 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.17 & 0.86 \\
+ &  & Location continent & 0.01 & 0.80 \\
+ &  & Location religion & 0.10 & 0.84 \\
+ &  & Person language & 0.02 & 0.88 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.19 & 0.80 \\
+ &  & Plural singular & 0.24 & 0.88 \\
+ &  & Present simple gerund & 0.00 & 0.96 \\
+ &  & Present simple past simple & 0.01 & 0.98 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.05 & 0.82 \\
+ &  & En fr & 0.15 & 0.84 \\
+ &  & Es en & 0.29 & 0.88 \\
+ &  & Fr en & 0.25 & 0.72 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{LLaMA 30B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.96 & 1.00 \\
+ &  & List last & 0.02 & 0.96 \\
+ &  & Next letter & 0.30 & 0.96 \\
+ &  & Prev letter & 0.02 & 0.80 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.27 & 0.88 \\
+ &  & Location continent & 0.01 & 0.86 \\
+ &  & Location religion & 0.05 & 0.88 \\
+ &  & Person language & 0.01 & 0.90 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.37 & 0.82 \\
+ &  & Plural singular & 0.21 & 0.90 \\
+ &  & Present simple gerund & 0.00 & 0.98 \\
+ &  & Present simple past simple & 0.02 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.07 & 0.78 \\
+ &  & En fr & 0.10 & 0.86 \\
+ &  & Es en & 0.24 & 0.88 \\
+ &  & Fr en & 0.20 & 0.78 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{LLaMA 7B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.87 & 1.00 \\
+ &  & List last & 0.03 & 1.00 \\
+ &  & Next letter & 0.03 & 0.88 \\
+ &  & Prev letter & 0.04 & 0.58 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.28 & 0.86 \\
+ &  & Location continent & 0.02 & 0.72 \\
+ &  & Location religion & 0.12 & 0.94 \\
+ &  & Person language & 0.02 & 0.78 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.33 & 0.76 \\
+ &  & Plural singular & 0.15 & 0.88 \\
+ &  & Present simple gerund & 0.00 & 0.90 \\
+ &  & Present simple past simple & 0.02 & 0.92 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.07 & 0.76 \\
+ &  & En fr & 0.04 & 0.88 \\
+ &  & Es en & 0.21 & 0.92 \\
+ &  & Fr en & 0.15 & 0.70 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 0.13B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.66 & 0.92 \\
+ &  & List last & 0.02 & 0.92 \\
+ &  & Next letter & 0.24 & 0.76 \\
+ &  & Prev letter & 0.06 & 0.04 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.07 & 0.19 \\
+ &  & Location continent & 0.01 & 0.50 \\
+ &  & Location religion & 0.02 & 0.63 \\
+ &  & Person language & 0.01 & 0.53 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.26 & 0.34 \\
+ &  & Plural singular & 0.09 & 0.46 \\
+ &  & Present simple gerund & 0.00 & 0.68 \\
+ &  & Present simple past simple & 0.01 & 0.63 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.07 & 0.23 \\
+ &  & En fr & 0.16 & 0.39 \\
+ &  & Es en & 0.07 & 0.26 \\
+ &  & Fr en & 0.10 & 0.27 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 0.37B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.09 & 1.00 \\
+ &  & List last & 0.02 & 0.95 \\
+ &  & Next letter & 0.19 & 0.87 \\
+ &  & Prev letter & 0.07 & 0.11 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.10 & 0.57 \\
+ &  & Location continent & 0.00 & 0.64 \\
+ &  & Location religion & 0.06 & 0.56 \\
+ &  & Person language & 0.01 & 0.79 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.33 & 0.68 \\
+ &  & Plural singular & 0.09 & 0.74 \\
+ &  & Present simple gerund & 0.00 & 0.83 \\
+ &  & Present simple past simple & 0.00 & 0.80 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.07 & 0.45 \\
+ &  & En fr & 0.12 & 0.53 \\
+ &  & Es en & 0.07 & 0.79 \\
+ &  & Fr en & 0.08 & 0.70 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 0.79B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.76 & 1.00 \\
+ &  & List last & 0.03 & 0.95 \\
+ &  & Next letter & 0.12 & 0.85 \\
+ &  & Prev letter & 0.03 & 0.35 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.15 & 0.76 \\
+ &  & Location continent & 0.02 & 0.73 \\
+ &  & Location religion & 0.12 & 0.74 \\
+ &  & Person language & 0.00 & 0.83 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.45 & 0.76 \\
+ &  & Plural singular & 0.07 & 0.86 \\
+ &  & Present simple gerund & 0.00 & 0.90 \\
+ &  & Present simple past simple & 0.01 & 0.86 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.11 & 0.56 \\
+ &  & En fr & 0.14 & 0.61 \\
+ &  & Es en & 0.09 & 0.82 \\
+ &  & Fr en & 0.20 & 0.75 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 1.40B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.68 & 1.00 \\
+ &  & List last & 0.03 & 0.93 \\
+ &  & Next letter & 0.07 & 0.77 \\
+ &  & Prev letter & 0.05 & 0.41 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.15 & 0.76 \\
+ &  & Location continent & 0.01 & 0.77 \\
+ &  & Location religion & 0.06 & 0.77 \\
+ &  & Person language & 0.00 & 0.84 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.37 & 0.78 \\
+ &  & Plural singular & 0.07 & 0.87 \\
+ &  & Present simple gerund & 0.00 & 0.89 \\
+ &  & Present simple past simple & 0.01 & 0.87 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.09 & 0.72 \\
+ &  & En fr & 0.14 & 0.70 \\
+ &  & Es en & 0.11 & 0.82 \\
+ &  & Fr en & 0.14 & 0.72 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 2.80B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.70 & 1.00 \\
+ &  & List last & 0.13 & 0.97 \\
+ &  & Next letter & 0.02 & 0.95 \\
+ &  & Prev letter & 0.04 & 0.37 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.15 & 0.80 \\
+ &  & Location continent & 0.03 & 0.81 \\
+ &  & Location religion & 0.12 & 0.79 \\
+ &  & Person language & 0.02 & 0.89 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.38 & 0.79 \\
+ &  & Plural singular & 0.14 & 0.96 \\
+ &  & Present simple gerund & 0.00 & 0.96 \\
+ &  & Present simple past simple & 0.01 & 0.93 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.03 & 0.75 \\
+ &  & En fr & 0.07 & 0.67 \\
+ &  & Es en & 0.11 & 0.83 \\
+ &  & Fr en & 0.16 & 0.81 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Mamba 2.80B (SP)} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.84 & 1.00 \\
+ &  & List last & 0.07 & 0.92 \\
+ &  & Next letter & 0.17 & 0.84 \\
+ &  & Prev letter & 0.02 & 0.23 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.20 & 0.84 \\
+ &  & Location continent & 0.06 & 0.86 \\
+ &  & Location religion & 0.12 & 0.84 \\
+ &  & Person language & 0.04 & 0.87 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.36 & 0.77 \\
+ &  & Plural singular & 0.11 & 0.90 \\
+ &  & Present simple gerund & 0.00 & 0.91 \\
+ &  & Present simple past simple & 0.01 & 0.90 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.08 & 0.74 \\
+ &  & En fr & 0.15 & 0.62 \\
+ &  & Es en & 0.11 & 0.83 \\
+ &  & Fr en & 0.16 & 0.76 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Pythia 12B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.53 & 0.96 \\
+ &  & List last & 0.09 & 1.00 \\
+ &  & Next letter & 0.15 & 0.76 \\
+ &  & Prev letter & 0.00 & 0.42 \\
+ &  & To lower & 0.02 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.19 & 0.82 \\
+ &  & Location continent & 0.01 & 0.80 \\
+ &  & Location religion & 0.07 & 0.78 \\
+ &  & Person language & 0.01 & 0.86 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.34 & 0.74 \\
+ &  & Plural singular & 0.18 & 0.84 \\
+ &  & Present simple gerund & 0.00 & 0.96 \\
+ &  & Present simple past simple & 0.01 & 0.94 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.10 & 0.72 \\
+ &  & En fr & 0.16 & 0.54 \\
+ &  & Es en & 0.05 & 0.80 \\
+ &  & Fr en & 0.14 & 0.80 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Pythia 2.8B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.69 & 1.00 \\
+ &  & List last & 0.06 & 1.00 \\
+ &  & Next letter & 0.42 & 0.90 \\
+ &  & Prev letter & 0.01 & 0.48 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.18 & 0.76 \\
+ &  & Location continent & 0.01 & 0.72 \\
+ &  & Location religion & 0.08 & 0.82 \\
+ &  & Person language & 0.00 & 0.82 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.37 & 0.76 \\
+ &  & Plural singular & 0.13 & 0.78 \\
+ &  & Present simple gerund & 0.00 & 0.96 \\
+ &  & Present simple past simple & 0.03 & 0.92 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.10 & 0.76 \\
+ &  & En fr & 0.16 & 0.60 \\
+ &  & Es en & 0.08 & 0.82 \\
+ &  & Fr en & 0.10 & 0.82 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{Pythia 6.9B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.43 & 0.98 \\
+ &  & List last & 0.08 & 0.98 \\
+ &  & Next letter & 0.01 & 0.86 \\
+ &  & Prev letter & 0.04 & 0.32 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.21 & 0.82 \\
+ &  & Location continent & 0.01 & 0.78 \\
+ &  & Location religion & 0.10 & 0.80 \\
+ &  & Person language & 0.01 & 0.80 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.33 & 0.74 \\
+ &  & Plural singular & 0.14 & 0.88 \\
+ &  & Present simple gerund & 0.00 & 0.94 \\
+ &  & Present simple past simple & 0.02 & 0.96 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.11 & 0.70 \\
+ &  & En fr & 0.21 & 0.60 \\
+ &  & Es en & 0.06 & 0.82 \\
+ &  & Fr en & 0.14 & 0.74 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{RWKV 0.169B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.48 & 0.46 \\
+ &  & List last & 0.10 & 0.19 \\
+ &  & Next letter & 0.10 & 0.29 \\
+ &  & Prev letter & 0.00 & 0.03 \\
+ &  & To lower & 0.00 & 0.54 \\
+ &  & To upper & 0.00 & 0.85 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.17 & 0.10 \\
+ &  & Location continent & 0.02 & 0.67 \\
+ &  & Location religion & 0.10 & 0.60 \\
+ &  & Person language & 0.01 & 0.31 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.10 & 0.08 \\
+ &  & Plural singular & 0.12 & 0.24 \\
+ &  & Present simple gerund & 0.00 & 0.25 \\
+ &  & Present simple past simple & 0.00 & 0.20 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.04 & 0.18 \\
+ &  & En fr & 0.11 & 0.24 \\
+ &  & Es en & 0.08 & 0.10 \\
+ &  & Fr en & 0.17 & 0.10 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{RWKV 0.43B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.40 & 0.73 \\
+ &  & List last & 0.17 & 0.48 \\
+ &  & Next letter & 0.09 & 0.66 \\
+ &  & Prev letter & 0.00 & 0.01 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.10 & 0.37 \\
+ &  & Location continent & 0.00 & 0.56 \\
+ &  & Location religion & 0.07 & 0.71 \\
+ &  & Person language & 0.01 & 0.64 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.16 & 0.56 \\
+ &  & Plural singular & 0.10 & 0.22 \\
+ &  & Present simple gerund & 0.00 & 0.51 \\
+ &  & Present simple past simple & 0.01 & 0.64 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.04 & 0.41 \\
+ &  & En fr & 0.18 & 0.39 \\
+ &  & Es en & 0.08 & 0.57 \\
+ &  & Fr en & 0.08 & 0.49 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{RWKV 1.5B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.51 & 0.97 \\
+ &  & List last & 0.26 & 0.78 \\
+ &  & Next letter & 0.20 & 0.81 \\
+ &  & Prev letter & 0.00 & 0.05 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.13 & 0.41 \\
+ &  & Location continent & 0.02 & 0.58 \\
+ &  & Location religion & 0.04 & 0.73 \\
+ &  & Person language & 0.00 & 0.79 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.37 & 0.70 \\
+ &  & Plural singular & 0.03 & 0.69 \\
+ &  & Present simple gerund & 0.00 & 0.71 \\
+ &  & Present simple past simple & 0.00 & 0.74 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.11 & 0.60 \\
+ &  & En fr & 0.15 & 0.61 \\
+ &  & Es en & 0.13 & 0.82 \\
+ &  & Fr en & 0.14 & 0.73 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{18}{*}{RWKV 3B} & \multirow[t]{6}{*}{Algorithmic} & List first & 0.29 & 0.96 \\
+ &  & List last & 0.43 & 0.88 \\
+ &  & Next letter & 0.02 & 0.56 \\
+ &  & Prev letter & 0.02 & 0.08 \\
+ &  & To lower & 0.00 & 1.00 \\
+ &  & To upper & 0.00 & 1.00 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Knowledge} & Country capital & 0.08 & 0.79 \\
+ &  & Location continent & 0.00 & 0.74 \\
+ &  & Location religion & 0.02 & 0.74 \\
+ &  & Person language & 0.00 & 0.82 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Linguistic} & Antonyms & 0.36 & 0.74 \\
+ &  & Plural singular & 0.09 & 0.82 \\
+ &  & Present simple gerund & 0.00 & 0.83 \\
+ &  & Present simple past simple & 0.01 & 0.83 \\
+\cline{2-5}
+ & \multirow[t]{4}{*}{Translation} & En es & 0.07 & 0.61 \\
+ &  & En fr & 0.13 & 0.63 \\
+ &  & Es en & 0.01 & 0.84 \\
+ &  & Fr en & 0.05 & 0.75 \\
+\cline{1-5} \cline{2-5}
+\bottomrule
+\end{longtable}
+
+\end{center}
+\twocolumn

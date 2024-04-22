@@ -1,0 +1,9 @@
+README.md
+setup.py
+mamba_mod/__init__.py
+mamba_mod/mixer_seq_simple.py
+mamba_mod.egg-info/PKG-INFO
+mamba_mod.egg-info/SOURCES.txt
+mamba_mod.egg-info/dependency_links.txt
+mamba_mod.egg-info/requires.txt
+mamba_mod.egg-info/top_level.txt

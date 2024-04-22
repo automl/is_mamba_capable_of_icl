@@ -1,0 +1,40 @@
+channels:
+  - pytorch
+  - huggingface
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  # Python
+  - requests
+  - tqdm
+  - python-dotenv
+
+  # Data Science
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - jupyter
+
+  # Pytorch
+  - pytorch
+
+  # NLP
+  - transformers
+  - datasets
+  - accelerate
+  # - fschat
+
+  # Misc
+  - schedule
+
+  - pip
+  - pip:  
+    - sentencepiece
+    - bitsandbytes
+    - nltk
+    # - translate
+    # - fschat
+

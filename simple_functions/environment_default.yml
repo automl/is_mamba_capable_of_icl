@@ -1,0 +1,22 @@
+name: in-context-learning
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - python=3.8.12
+  - pytorch
+  - pip:
+    - jupyter
+    - matplotlib
+    - numpy
+    - pandas
+    - quinine
+    - scikit-learn
+    - seaborn
+    - tqdm
+    - transformers==4.17.0 # (to load the transformers states of the authors, mamba requires higher like 4.3)
+    - wandb
+    - xgboost
+    - protobuf
+    - causal-conv1d>=1.1.0 

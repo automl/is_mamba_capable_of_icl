@@ -1,0 +1,5 @@
+model:
+    family: mamba
+    n_embd: 128
+    n_layer: 12
+    n_head: 0

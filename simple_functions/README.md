@@ -1,7 +1,6 @@
 # Is Mamba Capable of In-Context Learning?
 ## Section 3: Investigation of Simple Function Classes
 
-
 ## Environment Setup
 We modified the requirements file [requirements.txt](requirements.txt) provided by Garg et al. (2022) to create a python environment with all the required dependencies. To create the environment, run the following command:
 ```

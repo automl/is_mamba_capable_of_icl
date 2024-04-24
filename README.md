@@ -1,11 +1,8 @@
 # Is Mamba Capable of In-Context Learning?
-This is the official code repository for our paper.
+This is the official code repository for our paper ["Is Mamba Capable of In-Context Learning?"](https://arxiv.org/abs/2402.03170)
+by Riccardo Grazzi, Julien Siems, Simon Schrodi, Thomas Brox, and Frank Hutter.
 
-## Abstract:
-> This work provides empirical evidence that Mamba, a newly proposed selective structured state space model, has similar in-context learning (ICL) capabilities as transformers. We evaluated Mamba on tasks involving simple function approximation as well as more complex natural language processing problems. Our results demonstrate that across both categories of tasks, Mamba matches the performance of transformer models for ICL. Further analysis reveals that like transformers, Mamba appears to solve ICL problems by incrementally optimizing its internal representations. Overall, our work suggests that Mamba can be an efficient alternative to transformers for ICL tasks involving longer input sequences.
-
-
-## BibTeX:
+## Cite Us:
 ```
 @article{grazzi2024mamba,
   title={Is Mamba Capable of In-Context Learning?},
